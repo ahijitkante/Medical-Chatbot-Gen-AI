@@ -1,0 +1,63 @@
+[33mcommit 9a9c2ffcab6e6b00269ddbf3f49e885060d7a8ff[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: ahijitkante <ahijitkante122@gmail.com>
+Date:   Sat Mar 15 00:53:12 2025 +0530
+
+    Added .gitignore to prevent tracking secrets
+
+ .gitignore | 2 [32m++[m
+ 1 file changed, 2 insertions(+)
+
+[33mcommit 30a618090c77a3409c25c0e97c83b682b2424413[m
+Author: ahijitkante <ahijitkante122@gmail.com>
+Date:   Sat Mar 15 00:53:02 2025 +0530
+
+    Removed sensitive file from Git tracking
+
+ medical-chatbot-key.json | 13 [31m-------------[m
+ 1 file changed, 13 deletions(-)
+
+[33mcommit ceed6709e2065a0749d67806cafa518240a06788[m
+Author: ahijitkante <ahijitkante122@gmail.com>
+Date:   Sat Mar 15 00:47:55 2025 +0530
+
+    Initial commit with project files
+
+ .dockerignore            |   0
+ .gitignore               |  12 [31m-[m
+ Data/Medical_book.pdf    | Bin [31m0[m -> [32m16127037[m bytes
+ Dockerfile               |   9 [32m+[m
+ LICENSE                  |   2 [32m+[m[31m-[m
+ README.md                |   4 [31m-[m
+ app.py                   |  80 [32m++++++[m
+ medical-chatbot-key.json |  13 [32m+[m
+ requirements.txt         |  11 [32m+[m
+ research/trials.ipynb    | 633 [32m+++++++++++++++++++++++++++++++++++++++++++++++[m
+ setup.py                 |  11 [32m+[m
+ src/__init__.py          |   0
+ src/helper.py            |  28 [32m+++[m
+ src/prompt.py            |  11 [32m+[m
+ static/style.css         | 428 [32m++++++++++++++++++++++++++++++++[m
+ store_index.py           |  76 [32m++++++[m
+ template.py              |  36 [32m+++[m
+ templates/chat.html      | 143 [32m+++++++++++[m
+ 18 files changed, 1480 insertions(+), 17 deletions(-)
+
+[33mcommit 5291303f5f1a04a257aeda3cfb6a84b05aca2782[m
+Author: ahijitkante <164073295+ahijitkante@users.noreply.github.com>
+Date:   Sat Mar 15 00:36:32 2025 +0530
+
+    Update README.md
+
+ README.md | 5 [32m++++[m[31m-[m
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+[33mcommit 02424d1efd227834902fe49025d589a165ff5767[m
+Author: ahijitkante <164073295+ahijitkante@users.noreply.github.com>
+Date:   Fri Mar 14 15:39:25 2025 +0530
+
+    Initial commit
+
+ .gitignore | 174 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ LICENSE    |  21 [32m++++++++[m
+ README.md  |   1 [32m+[m
+ 3 files changed, 196 insertions(+)
